@@ -1,0 +1,65 @@
+.dashboard {
+    display: flex;
+    flex-direction: row;
+    height: 100vh; 
+  }
+  .w100{
+    width: 100%;
+  }
+  .df{
+    display: flex;
+  }
+  .aic{
+    align-items: center;
+  }
+  .jcsb{
+    justify-content: space-between;
+  }
+  li{
+    list-style: none;
+  }
+  .app-bar {
+    min-width: calc(100vw - 256px);
+    max-width:  calc(100vw - 256px);
+    position: fixed;
+    height: 60px; 
+    top: 0;
+    left: 256px;
+  }
+  
+  .drawer {
+    width: 256px; 
+    min-height: 100vh; 
+    max-height: 100vh; 
+    overflow-x: hidden;
+    overflow-y: auto;
+    font-size: 18px;
+  }
+  
+  .receipt-box, .purchage-box {
+    color: #2b2a2a;
+    min-width: 480px; 
+    max-width: 480px; 
+    min-height: calc(100vh - 136px);
+    text-transform: capitalize;
+    font-size: 16px;
+  }
+  
+  .clipboard {
+    flex: 1;
+    min-height: calc(100vh - 104px); 
+    max-height: calc(100vh - 104px); 
+    margin-top: 76px;
+    min-width: calc(100vw - 304px);
+    max-width: calc(100vw - 304px);
+    overflow: auto;
+}
+
+.nav-item:hover {
+  background-color: #6bb0f9;
+}
+
+.nav-item.active {
+  background-color: #6bb0f9;
+  color: #fff;
+}
